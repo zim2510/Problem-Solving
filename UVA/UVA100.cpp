@@ -1,13 +1,5 @@
 #include <bits/stdc++.h>
 
-#pragma GCC optimize("Ofast,no-stack-protector")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-#pragma GCC optimize("unroll-loops")
-
-#pragma G++ optimize("Ofast,no-stack-protector")
-#pragma G++ target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-#pragma G++ optimize("unroll-loops")
-
 #define Read()            freopen("in.txt", "r", stdin)
 #define Write()           freopen("out.txt", "w", stdout)
 #define min3(a, b, c)     min(a, min(b, c))
