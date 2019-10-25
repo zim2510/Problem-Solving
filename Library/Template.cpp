@@ -46,7 +46,7 @@ typedef unsigned long long ULL;
 int main(int argc, char const *argv[])
 {
 	
-	#ifndef ONLINE_JUDGE
+	#ifdef ROOT
 		freopen("in.txt", "r", stdin);
 		freopen("out.txt", "w", stdout);
 	#endif
